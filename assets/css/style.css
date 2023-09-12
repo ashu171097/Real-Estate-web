@@ -29,6 +29,14 @@ body {
 
 /* navbar css end */
 
+/* Secondary navbar css start */
+.makeOfferBtn {
+    background: #F05D29 !important;
+    padding: 10px 30px !important;
+}
+
+/* Secondary navbar css end */
+
 
 
 /* common style */
