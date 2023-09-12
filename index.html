@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/responsive.css">
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -86,7 +87,7 @@
           </li>
 
           <li>
-            <button class="btn nav-btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal" type="submit">Start Free Listing</button>
+            <button class="btn nav-btn" type="submit">Start Free Listing</button>
 
           </li>
         </ul>
@@ -290,10 +291,64 @@
       </div>
       <div class="card mt-3 p-3 real-people-post-container">
         <div class="shedule-header">Real People. Real Stories.</div>
-        <p class="description">See how buyers & sellers across America are saving on commission using Houzeo technology</p>
+        <p class="description">See how buyers & sellers across America are saving on commission using Houzeo technology
+        </p>
         <div class="row">
-          <div class="col-md">
-
+          <div class="col-4">
+            <div class="position-relative video-btn" data-bs-toggle="modal"
+              data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+              <img src="assets/images/people/people1.jpeg" height="auto" width="100%" alt="People 1" class="rounded">
+              <i class="fa fa-play-circle play-icon"></i>
+            </div>
+            <div class="people-name">Jared Goldfarb</div>
+            <div class="people-designation">Crestone, CO</div>
+          </div>
+          <div class="col-4">
+            <div class="position-relative video-btn" data-bs-toggle="modal"
+              data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+              <img src="assets/images/people/people1.jpeg" height="auto" width="100%" alt="People 1" class="rounded">
+              <i class="fa fa-play-circle play-icon"></i>
+            </div>
+            <div class="people-name">Lori R</div>
+            <div class="people-designation">Melbourne, FL</div>
+          </div>
+          <div class="col-4">
+            <div class="position-relative video-btn" data-bs-toggle="modal"
+              data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+              <img src="assets/images/people/people1.jpeg" height="auto" width="100%" alt="People 1" class="rounded">
+              <i class="fa fa-play-circle play-icon"></i>
+            </div>
+            <div class="people-name">Daniel Woodrum </div>
+            <div class="people-designation">Panama City Beach, FL</div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-4">
+            <div class="position-relative video-btn" data-bs-toggle="modal"
+              data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+              <img src="assets/images/people/people1.jpeg" height="auto" width="100%" alt="People 1" class="rounded">
+              <i class="fa fa-play-circle play-icon"></i>
+            </div>
+            <div class="people-name">Ken Marsh</div>
+            <div class="people-designation">Williamsburg, VA</div>
+          </div>
+          <div class="col-4">
+            <div class="position-relative video-btn" data-bs-toggle="modal"
+              data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+              <img src="assets/images/people/people1.jpeg" height="auto" width="100%" alt="People 1" class="rounded">
+              <i class="fa fa-play-circle play-icon"></i>
+            </div>
+            <div class="people-name">Susan Bish</div>
+            <div class="people-designation">Denver, NCL</div>
+          </div>
+          <div class="col-4">
+            <div class="position-relative video-btn" data-bs-toggle="modal"
+              data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+              <img src="assets/images/people/people1.jpeg" height="auto" width="100%" alt="People 1" class="rounded">
+              <i class="fa fa-play-circle play-icon"></i>
+            </div>
+            <div class="people-name">Brandon Fletcher</div>
+            <div class="people-designation">Cincinnati, OH</div>
           </div>
         </div>
       </div>
@@ -306,26 +361,28 @@
 
   <!-- modal -->
 
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-  
-        
+
+
         <div class="modal-body">
-         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
-          </button>        
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>
           <!-- 16:9 aspect ratio -->
-  <div class="ratio ratio-16x9">
-    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-  </div>
-          
-          
+          <div class="ratio ratio-16x9">
+            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+              allow="autoplay"></iframe>
+          </div>
+
+
         </div>
-  
+
       </div>
     </div>
-  </div> 
-  
+  </div>
+
   <!-- modal end -->
 </div>
 <!-- Main screem end -->
@@ -343,40 +400,40 @@
 
 
 <script>
-$(document).ready(function() {
+  $(document).ready(function () {
 
-// Gets the video src from the data-src on each button
+    // Gets the video src from the data-src on each button
 
-var $videoSrc;  
-$('.video-btn').click(function() {
-    $videoSrc = $(this).data( "src" );
-});
-console.log($videoSrc);
-
-  
-  
-// when the modal is opened autoplay it  
-$('#myModal').on('shown.bs.modal', function (e) {
-    
-// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-$("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
-})
-  
+    var $videoSrc;
+    $('.video-btn').click(function () {
+      $videoSrc = $(this).data("src");
+    });
+    console.log($videoSrc);
 
 
-// stop playing the youtube video when I close the modal
-$('#myModal').on('hide.bs.modal', function (e) {
-    // a poor man's stop video
-    $("#video").attr('src',$videoSrc); 
-}) 
-    
-    
+
+    // when the modal is opened autoplay it  
+    $('#myModal').on('shown.bs.modal', function (e) {
+
+      // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+      $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+    })
 
 
-  
-  
-// document ready  
-});
+
+    // stop playing the youtube video when I close the modal
+    $('#myModal').on('hide.bs.modal', function (e) {
+      // a poor man's stop video
+      $("#video").attr('src', $videoSrc);
+    })
+
+
+
+
+
+
+    // document ready  
+  });
 
 
 

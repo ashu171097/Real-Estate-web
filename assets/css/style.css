@@ -212,6 +212,29 @@ body {
     opacity: 1;
 }
 
+.play-icon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    color: #fff;
+}
+
+.real-people-post-container .people-name { 
+    text-align: left;
+    font: normal normal 600 12px/18px Poppins;
+    letter-spacing: 0px;
+    color: #313030;
+    opacity: 1;
+}
+
+.real-people-post-container .people-designation { 
+    text-align: left;
+    font: normal normal normal 10px/16px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+    }
+
 
 
 /* Real people post section end */
