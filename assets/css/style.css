@@ -6,6 +6,14 @@ body {
     font-weight: 500;
 }
 
+.md-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 
 
 /* navbar css */
@@ -35,6 +43,19 @@ body {
     padding: 10px 30px !important;
 }
 
+.offer-band {
+    position: absolute;
+    top: -5px;
+    right: -1px;
+    height: 48px;
+}
+
+.get-prearrove-tag {
+    align-items: end;
+    display: flex;
+    color: #0B5AA5;
+}
+
 /* Secondary navbar css end */
 
 
@@ -47,6 +68,10 @@ body {
 .devider {
     height: 1px;
     background-color: #dfdadabf;
+}
+
+.md-text-end {
+    text-align: end !important;
 }
 /* common style end*/
 
@@ -273,3 +298,42 @@ body {margin:2rem;}
 }
 
 /* modal css end */
+
+/* Media query start */
+
+@media (max-width: 767.98px) {
+    .md-text-end {
+        text-align: center !important;
+    }
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+    .md-fixed-top {
+        position: unset;
+    }
+
+    .sm-fixed-top {
+        position: fixed !important;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .main-container {
+        margin-top: 10px;
+    }
+    
+    .secondary-nav {
+        margin-top: 70px !important;
+    }
+
+    .get-prearrove-tag {
+        display: block !important;
+    }
+    
+ }
+
+/* Media query end */
