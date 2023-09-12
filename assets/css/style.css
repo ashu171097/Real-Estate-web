@@ -214,8 +214,8 @@ body {
 
 .play-icon {
     position: absolute;
-    top: calc(50% - 10px);
-    left: calc(50% - 10px);
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
     color: #fff;
 }
 
@@ -235,6 +235,13 @@ body {
     opacity: 0.5;
     }
 
+.real-people-post-container .view-all-story {
+    text-decoration: underline;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
 
 
 /* Real people post section end */
