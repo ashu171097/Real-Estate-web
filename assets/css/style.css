@@ -257,6 +257,12 @@ body {margin:2rem;}
   position:absolute;
   right:-30px;
   top:0;
+  opacity: .5;
+    position: absolute;
+    
+    right: 0px;
+    background-color: grey !important;
+  z-index: 999;
 }
 
 /* modal css end */
