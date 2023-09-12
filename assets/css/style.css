@@ -148,3 +148,30 @@ body {
 }
 
 /* Property detail end */
+
+/* Schedule section start */
+
+.shedule-header {
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.shedule-tab-container {
+    background-color: #d8d3d373;
+    padding: 5px 0;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.shedule-active-tab {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* Schedule section end */
