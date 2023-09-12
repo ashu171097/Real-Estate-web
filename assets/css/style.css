@@ -201,3 +201,26 @@ body {
     color: #80808070 !important;
 }
 /* Schedule section end */
+
+
+
+/* modal css */
+
+body {margin:2rem;}
+
+.modal-dialog {
+      max-width: 800px !important;
+      margin: 30px auto !important;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.btn-close {
+  position:absolute;
+  right:-30px;
+  top:0;
+}
+
+/* modal css end */
