@@ -174,4 +174,30 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.timing-day {
+    height: 17px;
+    text-align: left;
+    font: normal normal medium 12px/18px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.timing-date {
+    height: 39px;
+    text-align: left;
+    font: normal normal 600 28px/42px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.active-date {
+    background-color: #80808063 !important;
+}
+
+.date-disabled {
+    color: #80808070 !important;
+}
 /* Schedule section end */
