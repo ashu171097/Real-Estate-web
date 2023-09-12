@@ -44,3 +44,49 @@ body {
     font-size: 14px !important;
 }
 /* common style end*/
+
+
+/* Main screem start */
+
+.main-container {
+    margin-top: 180px;
+}
+
+.border-top-right-radius-5 {
+    border-top-right-radius: 5px;
+}
+
+.border-bottom-right-radius-5 {
+    border-bottom-right-radius: 5px;
+}
+
+.house-review-container {
+    width: 84px;
+    height: 30px;
+    background: #EBEBF0 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.house-review-container span {
+    padding-left: 5px
+}
+
+.house-sale-container span {
+    height: 23px;
+    text-align: left;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.house-sale-container div{
+    width: 15px;
+    height: 15px;
+    background: #00B67B 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+/* Main screem end */
