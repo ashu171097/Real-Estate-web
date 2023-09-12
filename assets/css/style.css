@@ -201,3 +201,17 @@ body {
     color: #80808070 !important;
 }
 /* Schedule section end */
+
+/* Real people post section start */
+
+.real-people-post-container .description {
+    text-align: left;
+    font: normal normal normal 16px/20px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+
+
+/* Real people post section end */
