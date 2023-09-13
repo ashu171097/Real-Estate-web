@@ -146,7 +146,7 @@ body {
 
 .proprty-description {
     height: 104px;
-    text-align: left;
+    text-align: justify;
     font: normal normal normal 16px/27px Poppins;
     letter-spacing: 0px;
     color: #000000;
@@ -287,7 +287,7 @@ body {
     position: absolute;
     top: calc(50% - 15px);
     left: calc(50% - 15px);
-    color: #fff;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
 .real-people-post-container .people-name { 
