@@ -86,6 +86,10 @@ body {
 .md-text-end {
     text-align: end !important;
 }
+
+.pointer {
+    cursor: pointer;
+}
 /* common style end*/
 
 
