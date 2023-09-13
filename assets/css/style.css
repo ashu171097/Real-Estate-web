@@ -302,7 +302,7 @@ body {margin:2rem;}
 /* image modal */
 
 #image-gallary .modal {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -455,3 +455,30 @@ body {margin:2rem;}
  }
 
 /* Media query end */
+
+
+#gallery {
+  img {
+    height: 75vw;
+    object-fit: cover;
+    
+    @media (min-width: 576px) {
+      height: 35vw;
+    }
+    
+    @media (min-width: 992px) {
+      height: 18vw;
+    }
+  }
+}
+
+.carousel-item {
+  img {
+    height: 60vw;
+    object-fit: cover;
+    
+    @media (min-width: 576px) {
+      height: 350px;
+    }
+  }
+}
