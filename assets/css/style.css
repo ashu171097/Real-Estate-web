@@ -451,6 +451,14 @@ body {
   .get-prearrove-tag {
     justify-content: center
   }
+
+  .footer {
+    display: block;
+  }
+
+  .footer img, .footer div {
+    display: block;
+  }
 }
 
 #gallery {
@@ -458,13 +466,15 @@ body {
 }
 
 footer div {
-    text-align: left;
+    /* text-align: left; */
     font: normal normal medium 12px/47px Poppins;
     letter-spacing: 0px;
     color: #000000;
-    opacity: 0.6;
+    /* opacity: 0.6; */
+    z-index: 99909;
 }
 
 footer {
     background-color: #f4f4f4;
+    z-index: 99999;
 }
