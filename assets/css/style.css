@@ -456,3 +456,15 @@ body {
 #gallery {
   object-fit: cover
 }
+
+footer div {
+    text-align: left;
+    font: normal normal medium 12px/47px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+footer {
+    background-color: #f4f4f4;
+}
