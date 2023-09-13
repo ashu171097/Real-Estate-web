@@ -84,7 +84,7 @@
           </li>
 
           <li>
-            <button class="btn nav-btn" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Start Free
+            <button class="btn nav-btn" type="submit">Start Free
               Listing</button>
 
           </li>
@@ -115,7 +115,7 @@
       </div>
     </div>
     <div class="col-sm-12 col-md-2 get-prearrove-tag">
-      <span class="fs-14">$</span>
+      <span class="fs-14 get-prearrove-logo">$</span>
       <span class="fs-14">Get Pre-Approved</span>
     </div>
     <div class="col-sm-12 col-md-1">
@@ -150,12 +150,20 @@
   <div class="row">
     <div class="col-sm-12 col-md-8 col-lg-8">
       <div class="row ps-2 pe-2">
-        <div class="col-sm-12 col-md-8 col-lg-8 p-1">
+        <div class="col-sm-12 col-md-8 col-lg-8 p-1 position-relative">
           <img src="assets/images/propertyListing/image1.png" class="w-100 rounded-start">
+          <div class="house-review-container all-photos d-flex justify-content-center align-items-center">
+            <img src="assets/images/propertyListing/street.svg" alt="band image" height="20" width="20" />
+            <span>Street View</span>
+          </div>
         </div>
-        <div class="col-sm-12  col-md-4 col-lg-4 p-1">
+        <div class="col-sm-12  col-md-4 col-lg-4 p-1 position-relative">
           <img src="assets/images/propertyListing/image2.png" class="w-100 pb-1 border-top-right-radius-5">
           <img src="assets/images/propertyListing/image3.png" class="w-100 pt-1 border-bottom-right-radius-5">
+          <div class="house-review-container all-photos d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#imageGallary">
+            <img src="assets/images/propertyListing/grid.svg" alt="band image" height="20" width="20" />
+            <span>All Photos(3)</span>
+          </div>
         </div>
       </div>
 
@@ -364,7 +372,7 @@
 
   <!-- modal -->
 
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="imageGallaryLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -391,7 +399,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade" id="imageGallary" tabindex="-1" role="dialog" aria-labelledby="imageGallaryLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">

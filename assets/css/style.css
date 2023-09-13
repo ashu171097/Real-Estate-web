@@ -56,6 +56,19 @@ body {
     color: #0B5AA5;
 }
 
+.get-prearrove-logo {
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: #648fc2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-right: 5px;
+}
+
 /* Secondary navbar css end */
 
 
@@ -145,6 +158,13 @@ body {
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+}
+
+.all-photos { 
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 
 /* Property image container end */
@@ -449,7 +469,7 @@ body {margin:2rem;}
     }
 
     .get-prearrove-tag {
-        display: block !important;
+        justify-content: center;
     }
     
  }
