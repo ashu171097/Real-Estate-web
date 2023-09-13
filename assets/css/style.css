@@ -146,7 +146,7 @@ body {
 
 .proprty-description {
     height: 104px;
-    text-align: left;
+    text-align: justify;
     font: normal normal normal 16px/27px Poppins;
     letter-spacing: 0px;
     color: #000000;
